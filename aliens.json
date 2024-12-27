@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Heatblast",
+        "image": "https://example.com/images/heatblast.png"
+    },
+    {
+        "id": 2,
+        "name": "Diamondhead",
+        "image": "https://example.com/images/diamondhead.png"
+    },
+    {
+        "id": 3,
+        "name": "XLR8",
+        "image": "https://example.com/images/xlr8.png"
+    },
+    {
+        "id": 4,
+        "name": "Fourarms",
+        "image": "https://example.com/images/fourarms.png"
+    }
+]
