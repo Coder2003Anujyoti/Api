@@ -3,6 +3,7 @@ const multer = require("multer");
 const cors = require("cors");
 const path = require("path");
 const fs = require("fs");
+
 const app = express();
 
 // Ensure the uploads directory exists
@@ -10,10 +11,10 @@ const app = express();
 
 
 // Middleware
-app.use(cors({
+app.use(cors(({
   origin:"*"
 }));
-app.use(express.json())
+app.use(express.json());
 app.use("/uploads", express.static("uploads"));
 
 // Multer setup for single file upload
@@ -55,7 +56,7 @@ console.log(req.file.filename)
 });
 
 // Start the server
-const PORT = 8000;
+const PORT = 4000;
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
