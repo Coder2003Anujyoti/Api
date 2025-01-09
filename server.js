@@ -56,7 +56,7 @@ console.log(req.file.filename)
 });
 
 // Start the server
-const PORT = 4000;
+const PORT = 8000;
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
