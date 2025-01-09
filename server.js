@@ -3,7 +3,7 @@ const multer = require("multer");
 const cors = require("cors");
 const path = require("path");
 const fs = require("fs");
-
+const bodyParser=require('body-parser');
 const app = express();
 
 // Ensure the uploads directory exists
@@ -14,6 +14,8 @@ const app = express();
 app.use(cors(({
   origin:"*"
 })));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended:false}))
 app.use(express.json());
 app.use("/uploads", express.static("uploads"));
 
