@@ -9,6 +9,7 @@ const bodyParser=require('body-parser');
 app.use(cors({
   origin:"*"
 }));
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}))
 // define the route
 app.get('/',

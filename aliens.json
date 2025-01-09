@@ -213,5 +213,120 @@
     "id": 43,
     "image": "https://static.wikia.nocookie.net/ben10/images/a/a6/Shocksquatch_omniverse_official.png/revision/latest?cb=20210515162700",
     "name": "Shocksquatch"
+  },
+  {
+        "id": 44,
+    "image": "https://static.wikia.nocookie.net/ben10/images/7/7e/Standing_Overflow.png/revision/latest?cb=20201111080127",
+    "name": "Overflow"
+  },
+  {
+        "id": 45,
+    "image": "https://static.wikia.nocookie.net/ben10/images/9/91/Standing_Wildvine.png/revision/latest?cb=20231208211748",
+    "name": "Wildvine"
+  },
+  {
+        "id": 46,
+    "image": "https://static.wikia.nocookie.net/ben10/images/4/4e/Gax_Profile.png/revision/latest?cb=20240309075655",
+    "name": "Gax"
+  },
+  {
+        "id": 47,
+    "image": "https://static.wikia.nocookie.net/ben10/images/9/94/Slapback_Standing_Pose.PNG/revision/latest?cb=20210725094945",
+    "name": "Slapback"
+  },
+  {
+        "id": 48,
+    "image": "https://static.wikia.nocookie.net/ben10/images/9/9a/Rockshock.png/revision/latest?cb=20180630095603",
+    "name": "Shock-Rock"
+  },
+  {
+        "id": 49,
+    "image": "https://static.wikia.nocookie.net/ben10/images/f/f5/Surge_Arcade_Render.png/revision/latest?cb=20210411091943",
+    "name": "Surge"
+  },
+  {
+        "id": 50,
+    "image": "https://static.wikia.nocookie.net/ben10/images/3/38/OV_AlienX.png/revision/latest?cb=20231210025200",
+    "name": "AlienX"
+  },
+  {
+        "id": 51,
+    "image": "https://static.wikia.nocookie.net/ben10/images/f/f3/Teen_Feedback_Stand.png/revision/latest?cb=20200522083458",
+    "name": "Feedback"
+  },
+  {
+        "id": 52,
+    "image": "https://static.wikia.nocookie.net/ben10/images/5/5b/Bloxx.png/revision/latest?cb=20230814040045",
+    "name": "Bloxx"
+  },
+  {
+        "id": 53,
+    "image": "https://static.wikia.nocookie.net/ben10/images/e/ed/Gravattack_Pose.png/revision/latest?cb=20220802065601",
+    "name": "Gravattack"
+  },
+  {
+        "id": 54,
+    "image": "https://static.wikia.nocookie.net/ben10/images/4/43/OV_Crashhopper.png/revision/latest?cb=20200613085908",
+    "name": "Crashhopper"
+  },
+  {
+        "id": 55,
+    "image": "https://static.wikia.nocookie.net/ben10/images/2/2c/Ball_weevil_omniverse_official.png/revision/latest?cb=20220727052729",
+    "name": "Ball-Weevil"
+  },
+  {
+        "id": 56,
+    "image": "https://static.wikia.nocookie.net/ben10/images/0/0c/Walky.png/revision/latest?cb=20200522085205",
+    "name": "Walkatrout"
+  },
+  {
+        "id": 57,
+    "image": "https://static.wikia.nocookie.net/ben10/images/4/4b/Pesky_Dust_2.png/revision/latest?cb=20210730163745",
+    "name": "Pesky Dust"
+  },
+  {
+        "id": 58,
+    "image": "https://static.wikia.nocookie.net/ben10/images/7/70/Mole-Stache_official.png/revision/latest?cb=20200603082802",
+    "name": "Mole-Stache"
+  },
+  {
+        "id": 59,
+    "image": "https://static.wikia.nocookie.net/ben10/images/8/8a/OmniverseTheWorst.png/revision/latest?cb=20230611221648",
+    "name": "The-Worst"
+  },
+  {
+        "id": 60,
+    "image": "https://static.wikia.nocookie.net/ben10/images/4/4b/Kicken_Hawk_Omniverse_official.png/revision/latest?cb=20230814035847",
+    "name": "Kickin-Hawk"
+  },
+  {
+        "id": 61,
+    "image": "https://static.wikia.nocookie.net/ben10/images/0/0d/Toepick_art.png/revision/latest?cb=20231208212716",
+    "name": "Toepick"
+  },
+  {
+        "id": 62,
+    "image": "https://static.wikia.nocookie.net/ben10/images/a/a2/Astrodactyl_Wings.png/revision/latest?cb=20200522084519",
+    "name": "Astrodactyl"
+  },
+  {
+        "id": 63,
+    "image": "https://static.wikia.nocookie.net/ben10/images/2/26/Bullfrag_OV_4.png/revision/latest?cb=20141129043410",
+    "name": "Bullfrag"
+  },
+  {
+        "id": 64,
+    "image": "https://static.wikia.nocookie.net/ben10/images/c/c5/OmniverseAtomix.png/revision/latest?cb=20200601012256",
+    "name": "Atomix"
+  },
+  {
+        "id": 65,
+    "image": "https://static.wikia.nocookie.net/ben10/images/e/eb/Gutrot_official.png/revision/latest?cb=20141129043754",
+    "name": "Gutrot"
+  },
+  {
+        "id": 66,
+    "image": "https://static.wikia.nocookie.net/ben10/images/7/7a/Whampire_facebook_profileT.png/revision/latest?cb=20171022040815",
+    "name": "Whampire"
   }
 ]
