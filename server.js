@@ -51,6 +51,7 @@ app.post("/upload", upload.single("image"), (req, res) => {
     return res.status(400).json({ message: "No file uploaded." });
   }
 console.log(req.file.filename)
+fs.writeFile("./text.json",JSON.stringify( `https://aliens-8zc3.onrender.com/uploads/${req.file.filename}`));
   res.json({
     message: "File uploaded successfully!",
     filePath: `https://aliens-8zc3.onrender.com/uploads/${req.file.filename}`,
