@@ -64,7 +64,7 @@ fs.writeFile("./text.json",JSON.stringify(details),(err)=>{
 });
   return res.json({
     message: "File uploaded successfully!",
-    filePath: `http://localhost:8000/uploads/${req.file.filename}`,
+    filePath: `https://northern-guillemette-apisjdjjd-bf3e8d4c.koyeb.app/uploads/${req.file.filename}`,
   });
 });
 
