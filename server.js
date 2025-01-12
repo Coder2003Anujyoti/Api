@@ -4,6 +4,7 @@ const cors = require("cors");
 const path = require("path");
 const fs = require("fs");
 const bodyParser=require('body-parser');
+const details=require('./text.json');
 const app = express();
 
 // Ensure the uploads directory exists
@@ -44,17 +45,26 @@ const upload = multer({
     }
   },
 });
-
+app.get('/data',(req,res)=>{
+  return res.status(201).json(details);
+})
 // Route to handle single file upload
 app.post("/upload", upload.single("image"), (req, res) => {
+  const image={
+    data:req.file.path
+  }
   if (!req.file) {
     return res.status(400).json({ message: "No file uploaded." });
   }
-console.log(req.file.filename)
-fs.writeFile("./text.json",JSON.stringify( `https://aliens-8zc3.onrender.com/uploads/${req.file.filename}`));
-  res.json({
+console.log(req.file.path)
+details.push(image);
+fs.writeFile("./text.json",JSON.stringify(details),(err)=>{
+  if(err)
+  console.log(err)
+});
+  return res.json({
     message: "File uploaded successfully!",
-    filePath: `https://aliens-8zc3.onrender.com/uploads/${req.file.filename}`,
+    filePath: `http://localhost:8000/uploads/${req.file.filename}`,
   });
 });
 
